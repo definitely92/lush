@@ -1,0 +1,143 @@
+.top_banner {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: rgb(34, 34, 34);
+  height: 28px;
+
+  .swiper {
+    line-height: 28px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    .swiper-slide {
+      width: 100% !important;
+    }
+  }
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  left: 0;
+  top: 28px;
+  z-index: 98;
+}
+header .header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 16px;
+  border-bottom: 1px solid #eee;
+}
+header .header-wrap h1 {
+  line-height: 63px;
+}
+header .left-menu {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  .side-btn {
+    display: block;
+  }
+}
+header .left-menu .logo {
+  display: inline-block;
+  margin-left: 24px;
+}
+header .right-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .right-menu ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+header .right-menu ul li:nth-of-type(2) {
+  margin: 0 0 0 13px;
+}
+header .right-menu ul li:nth-of-type(3) {
+  margin: 0 0 0 13px;
+}
+header .right-menu ul li .short-live {
+  display: block;
+  width: 31px;
+}
+header .right-menu ul li .short-live img {
+  width: 100%;
+}
+header .right-menu ul li .basket {
+  display: block;
+  position: relative;
+  width: 24px;
+}
+header .right-menu ul li .basket img {
+  display: block;
+  width: 100%;
+}
+header .right-menu ul li .basket .basket-cnt {
+  position: absolute;
+  top: 0;
+  right: -3px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #18a957;
+  text-align: center;
+  line-height: 14px;
+  color: #fff;
+  font-size: 10px;
+}
+
+nav {
+  display: none;
+}
+
+@media only screen and (min-width: 1028px) {
+  nav {
+    display: block;
+    margin-left: 50px;
+    ul {
+      display: flex;
+      li {
+        margin-right: 20px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+  header {
+    top: 40px;
+    .header-wrap {
+      height: 110px;
+      .side-btn {
+        display: none;
+      }
+    }
+  }
+  .top_banner {
+    padding: 0 24px;
+    height: 40px;
+    .swiper {
+      line-height: 40px;
+
+      font-size: 14px;
+
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+}

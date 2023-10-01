@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Header from "./components/Header";
+import TopBanner from "./components/TopBanner";
+import { Route, Routes } from "react-router-dom";
+import Main from "./pages/Main";
+import Footer from "./components/Footer";
+import { mainPrds } from "./libs/mainPrds";
+import Product from "./pages/Product";
+import Cart from "./pages/Cart";
+import Aside from "./components/Aside";
 
 function App() {
+  const [asideOpen, setAsideOpen] = useState(false);
+
+  const sideBtnhandle = () => {
+    setAsideOpen(!asideOpen);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Aside asideOpen={asideOpen} sideBtnhandle={sideBtnhandle} />
+      <TopBanner />
+      <Header asideOpen={asideOpen} sideBtnhandle={sideBtnhandle} />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/detail/:id" element={<Product prds={mainPrds} />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

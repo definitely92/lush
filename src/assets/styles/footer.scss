@@ -1,0 +1,130 @@
+footer {
+  * {
+    color: #222;
+    font-weight: unset;
+  }
+  margin-top: 48px;
+  background: #f6f6f6;
+
+  .core {
+    background: #fff;
+    .swiper-wrapper {
+      height: 80px;
+      transition-timing-function: linear;
+    }
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      width: auto;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .footer-wrap {
+    padding: 40px 32px 96px 32px;
+    font-size: 11px;
+    color: #757575;
+    font-weight: 400;
+    .footer_logo {
+      color: #949494;
+      font-size: 11px;
+      .btn_logo {
+        position: relative;
+        padding-right: 20px;
+        font-size: 0;
+        width: 80px;
+        height: 16px;
+      }
+      .info {
+        margin-top: 16px;
+        li {
+          line-height: 18px;
+        }
+      }
+    }
+  }
+  .footer_menu {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0 10px;
+  }
+
+  .footer_cs {
+    display: block;
+    margin-top: 24px;
+    padding-top: 24px;
+    position: relative;
+    border-top: 1px solid #eaeaea;
+    .cs_time {
+      margin-top: 8px;
+      li {
+        line-height: 16px;
+      }
+    }
+  }
+  .footer_qa {
+    margin-top: 12px;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    gap: 0 5px;
+    li {
+      width: 100%;
+      a {
+        display: block;
+        height: 26px;
+        line-height: 24px;
+        text-align: center;
+        border: 1px solid #eaeaea;
+      }
+    }
+  }
+  .copyright {
+    margin-top: 30px;
+    font-weight: 400;
+    color: #949494;
+  }
+  .sns {
+    margin-top: 24px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+  }
+
+  .quick-menu {
+    z-index: 999;
+    position: fixed;
+    right: 17px;
+    bottom: 37px;
+    .quick__nav {
+      margin-top: 13px;
+
+      li {
+        text-align: right;
+      }
+      .quick-top {
+        border: 1px solid #e8e8e8;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        text-indent: -9999px;
+        border-radius: 50%;
+      }
+    }
+  }
+  .scroll-fade-animation {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  .scroll-fade-animation.on {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
