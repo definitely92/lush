@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lush/static/css/main.eb72c543.css",
-    "main.js": "/lush/static/js/main.df987f4c.js",
+    "main.js": "/lush/static/js/main.f7875946.js",
     "index.html": "/lush/index.html",
     "main.eb72c543.css.map": "/lush/static/css/main.eb72c543.css.map",
-    "main.df987f4c.js.map": "/lush/static/js/main.df987f4c.js.map"
+    "main.f7875946.js.map": "/lush/static/js/main.f7875946.js.map"
   },
   "entrypoints": [
     "static/css/main.eb72c543.css",
-    "static/js/main.df987f4c.js"
+    "static/js/main.f7875946.js"
   ]
 }
