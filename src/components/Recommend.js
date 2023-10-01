@@ -19,7 +19,7 @@ const Recommend = () => {
               <span
                 style={{
                   background:
-                    "url(/images/arrow_forward_black.svg) bottom 4px right 3px no-repeat",
+                    "url(https://definitely92.github.io/lush/images/arrow_forward_black.svg) bottom 4px right 3px no-repeat",
                   backgroundSize: "13px",
                 }}
               >
@@ -46,10 +46,16 @@ const Recommend = () => {
                   </div>
                   <div className="buttons">
                     <button type="button" className="like">
-                      <img src="/images/favourites_01.svg" alt="좋아요" />
+                      <img
+                        src="https://definitely92.github.io/lush/images/favourites_01.svg"
+                        alt="좋아요"
+                      />
                     </button>
                     <button type="button">
-                      <img src="/images/bag2.svg" alt="장바구니 버튼" />
+                      <img
+                        src="https://definitely92.github.io/lush/images/bag2.svg"
+                        alt="장바구니 버튼"
+                      />
                     </button>
                   </div>
                 </li>

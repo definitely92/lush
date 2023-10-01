@@ -23,10 +23,16 @@ const MainNewsLetter = () => {
               placeholder="이메일 주소를 입력해주세요"
             />
             <button type="button" id="" className="btn_del">
-              <img src="/images/ico_del.svg" alt="삭제" />
+              <img
+                src="https://definitely92.github.io/lush/images/ico_del.svg"
+                alt="삭제"
+              />
             </button>
             <button type="button" id="footerEmailBtn" className="btn_go">
-              <img src="/images/ico_subscribe_off.svg" alt="구독" />
+              <img
+                src="https://definitely92.github.io/lush/images/ico_subscribe_off.svg"
+                alt="구독"
+              />
             </button>
           </div>
         </div>

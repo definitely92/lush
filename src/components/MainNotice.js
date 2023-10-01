@@ -38,7 +38,10 @@ const MainNotice = () => {
               <SwiperSlide key={notice.id}>
                 <Link>{notice.text}</Link>
                 <span className="ico-new">
-                  <img src="/images/ico_new.svg" alt="new" />
+                  <img
+                    src="https://definitely92.github.io/lush/images/ico_new.svg"
+                    alt="new"
+                  />
                 </span>
               </SwiperSlide>
             ))}

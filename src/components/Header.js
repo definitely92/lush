@@ -7,10 +7,16 @@ const Header = ({ sideBtnhandle }) => {
       <div className="header-wrap">
         <div className="left-menu">
           <button className="side-btn" onClick={sideBtnhandle}>
-            <img src="/images/menu.svg" alt="사이드 메뉴 열기 버튼" />
+            <img
+              src="https://definitely92.github.io/lush/images/menu.svg"
+              alt="사이드 메뉴 열기 버튼"
+            />
           </button>
           <Link to="/" className="logo">
-            <img src="/images/logo.svg" alt="LUSH 로고" />
+            <img
+              src="https://definitely92.github.io/lush/images/logo.svg"
+              alt="LUSH 로고"
+            />
           </Link>
           <nav>
             <ul>
@@ -27,12 +33,18 @@ const Header = ({ sideBtnhandle }) => {
           <ul>
             <li>
               <Link to="/">
-                <img src="/images/search.svg" alt="검색" />
+                <img
+                  src="https://definitely92.github.io/lush/images/search.svg"
+                  alt="검색"
+                />
               </Link>
             </li>
             <li>
               <Link to="/" className="basket">
-                <img src="/images/bag.svg" alt="장바구니" />
+                <img
+                  src="https://definitely92.github.io/lush/images/bag.svg"
+                  alt="장바구니"
+                />
                 <span className="basket-cnt" id="header_cart_quantity">
                   0
                 </span>
@@ -40,7 +52,10 @@ const Header = ({ sideBtnhandle }) => {
             </li>
             <li>
               <Link to="/" className="member">
-                <img src="/images/account.svg" alt="마이페이지" />
+                <img
+                  src="https://definitely92.github.io/lush/images/account.svg"
+                  alt="마이페이지"
+                />
               </Link>
             </li>
           </ul>

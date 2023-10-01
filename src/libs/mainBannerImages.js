@@ -1,7 +1,7 @@
 export const MainBannerImages = [
   {
     id: 1,
-    src: "/images/main_banner_img_01.png",
+    src: "https://definitely92.github.io/lush/images/main_banner_img_01.png",
     alt: "러쉬메인배너이미지1",
     eyeText1: "엡전용",
     eyeText2: "사은품",
@@ -11,7 +11,7 @@ export const MainBannerImages = [
   },
   {
     id: 2,
-    src: "/images/main_banner_img_02.png",
+    src: "https://definitely92.github.io/lush/images/main_banner_img_02.png",
     alt: "러쉬메인배너이미지2",
     eyeText1: "전시",
     eyeText2: "이벤트",
@@ -21,7 +21,7 @@ export const MainBannerImages = [
   },
   {
     id: 3,
-    src: "/images/main_banner_img_03.png",
+    src: "https://definitely92.github.io/lush/images/main_banner_img_03.png",
     alt: "러쉬메인배너이미지3",
     eyeText1: "취향사전",
     eyeText2: "이벤트",
@@ -31,7 +31,7 @@ export const MainBannerImages = [
   },
   {
     id: 4,
-    src: "/images/main_banner_img_04.png",
+    src: "https://definitely92.github.io/lush/images/main_banner_img_04.png",
     alt: "러쉬메인배너이미지4",
     eyeText1: "리미티드",
     eyeText2: "신제품",
@@ -41,7 +41,7 @@ export const MainBannerImages = [
   },
   {
     id: 6,
-    src: "/images/main_banner_img_06.png",
+    src: "https://definitely92.github.io/lush/images/main_banner_img_06.png",
     alt: "러쉬메인배너이미지6",
     eyeText1: "리미티드",
     eyeText2: "신제품",
@@ -51,7 +51,7 @@ export const MainBannerImages = [
   },
   {
     id: 7,
-    src: "/images/main_banner_img_07.png",
+    src: "https://definitely92.github.io/lush/images/main_banner_img_07.png",
     alt: "러쉬메인배너이미지7",
     eyeText1: "콜라보레이션",
     eyeText2: "이벤트",
@@ -61,7 +61,7 @@ export const MainBannerImages = [
   },
   {
     id: 8,
-    src: "/images/main_banner_img_08.png",
+    src: "https://definitely92.github.io/lush/images/main_banner_img_08.png",
     alt: "러쉬메인배너이미지8",
     eyeText1: "리뷰",
     eyeText2: "이벤트",
@@ -71,7 +71,7 @@ export const MainBannerImages = [
   },
   {
     id: 9,
-    src: "/images/main_banner_img_09.png",
+    src: "https://definitely92.github.io/lush/images/main_banner_img_09.png",
     alt: "러쉬메인배너이미지9",
     eyeText1: "덕찌",
     eyeText2: "이벤트",

@@ -10,7 +10,10 @@ const Footer = () => {
       <div className="footer-wrap">
         <div className="footer_logo">
           <button type="button" className="btn_logo">
-            <img src="/images/lush_footer.svg" alt="로고" />
+            <img
+              src="https://definitely92.github.io/lush/images/lush_footer.svg"
+              alt="로고"
+            />
           </button>
           <ul className="info">
             <li className="address">
@@ -83,30 +86,42 @@ const Footer = () => {
         <ul className="sns">
           <li>
             <Link to="">
-              <img src="/images/ico_youtube.svg" alt="러쉬 유튜브 바로가기" />
+              <img
+                src="https://definitely92.github.io/lush/images/ico_youtube.svg"
+                alt="러쉬 유튜브 바로가기"
+              />
             </Link>
           </li>
           <li>
             <Link to="">
               <img
-                src="/images/ico_kakao.svg"
+                src="https://definitely92.github.io/lush/images/ico_kakao.svg"
                 alt="러쉬 카카오플러스 바로가기"
               />
             </Link>
           </li>
           <li>
             <Link to="https://twitter.com/LUSHKOREA">
-              <img src="/images/ico_twitter.svg" alt="러쉬 트위터 바로가기" />
+              <img
+                src="https://definitely92.github.io/lush/images/ico_twitter.svg"
+                alt="러쉬 트위터 바로가기"
+              />
             </Link>
           </li>
           <li>
             <Link to="https://blog.naver.com/lushkr1">
-              <img src="/images/ico_blog.svg" alt="러쉬 블로그 바로가기" />
+              <img
+                src="https://definitely92.github.io/lush/images/ico_blog.svg"
+                alt="러쉬 블로그 바로가기"
+              />
             </Link>
           </li>
           <li>
             <Link to="https://m.post.naver.com/lushkr1">
-              <img src="/images/ico_naver.svg" alt="러쉬 네이버 바로가기" />
+              <img
+                src="https://definitely92.github.io/lush/images/ico_naver.svg"
+                alt="러쉬 네이버 바로가기"
+              />
             </Link>
           </li>
         </ul>

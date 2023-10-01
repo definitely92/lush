@@ -6,27 +6,27 @@ import "swiper/scss";
 const coreImgs = [
   {
     id: 1,
-    src: "/images/naked.svg",
+    src: "https://definitely92.github.io/lush/images/naked.svg",
     txt: "naked products",
   },
   {
     id: 2,
-    src: "/images/handmade.svg",
+    src: "https://definitely92.github.io/lush/images/handmade.svg",
     txt: "handemade width love",
   },
   {
     id: 3,
-    src: "/images/fat.svg",
+    src: "https://definitely92.github.io/lush/images/fat.svg",
     txt: "fat",
   },
   {
     id: 4,
-    src: "/images/fat.svg",
+    src: "https://definitely92.github.io/lush/images/fat.svg",
     txt: "fat",
   },
   {
     id: 5,
-    src: "/images/fat.svg",
+    src: "https://definitely92.github.io/lush/images/fat.svg",
     txt: "fat",
   },
 ];

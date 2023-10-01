@@ -35,7 +35,7 @@ const TopBtn = () => {
             className="quick-top"
             style={{
               background:
-                "#fff url(/images/btn_quick_top.svg) no-repeat center center",
+                "#fff url(https://definitely92.github.io/lush/images/btn_quick_top.svg) no-repeat center center",
             }}
             onClick={handleScrollTop}
           >

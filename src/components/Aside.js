@@ -5,62 +5,62 @@ const asideMainMenu = [
   {
     id: 1,
     name: "베스트",
-    imgSrc: "/images/aside_menu_img01.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img01.png",
   },
   {
     id: 2,
     name: "신제품",
-    imgSrc: "/images/aside_menu_img02.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img02.png",
   },
   {
     id: 3,
     name: "콜라보",
-    imgSrc: "/images/aside_menu_img03.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img03.png",
   },
   {
     id: 4,
     name: "선물하기",
-    imgSrc: "/images/aside_menu_img04.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img04.png",
   },
   {
     id: 5,
     name: "배쓰",
-    imgSrc: "/images/aside_menu_img05.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img05.png",
   },
   {
     id: 6,
     name: "샤워",
-    imgSrc: "/images/aside_menu_img06.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img06.png",
   },
   {
     id: 7,
     name: "보디",
-    imgSrc: "/images/aside_menu_img07.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img07.png",
   },
   {
     id: 8,
     name: "헤어",
-    imgSrc: "/images/aside_menu_img08.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img08.png",
   },
   {
     id: 9,
     name: "프래그런스",
-    imgSrc: "/images/aside_menu_img09.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img09.png",
   },
   {
     id: 10,
     name: "페이스",
-    imgSrc: "/images/aside_menu_img10.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img10.png",
   },
   {
     id: 11,
     name: "메이크업",
-    imgSrc: "/images/aside_menu_img11.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img11.png",
   },
   {
     id: 12,
     name: "기프트",
-    imgSrc: "/images/aside_menu_img12.png",
+    imgSrc: "https://definitely92.github.io/lush/images/aside_menu_img12.png",
   },
 ];
 
@@ -69,10 +69,16 @@ const Aside = ({ asideOpen, sideBtnhandle }) => {
     <aside className={`aside ${asideOpen ? "on" : ""}`}>
       <div className="a-header">
         <Link to="/">
-          <img src="/images/logo.svg" alt="로고" />
+          <img
+            src="https://definitely92.github.io/lush/images/logo.svg"
+            alt="로고"
+          />
         </Link>
         <button className="close-aside" onClick={sideBtnhandle}>
-          <img src="/images/Icon_close.svg" alt="닫기버튼" />
+          <img
+            src="https://definitely92.github.io/lush/images/Icon_close.svg"
+            alt="닫기버튼"
+          />
         </button>
       </div>
       <ul className="main-menu">
@@ -90,13 +96,19 @@ const Aside = ({ asideOpen, sideBtnhandle }) => {
           <div className="thumbnail-horizontal">
             <div>
               <span>
-                <img src="/images/aside_menu_img13.webp" alt="" />
+                <img
+                  src="https://definitely92.github.io/lush/images/aside_menu_img13.webp"
+                  alt=""
+                />
               </span>
               아트 큐레이션
             </div>
             <div>
               <span>
-                <img src="/images/aside_menu_img14.png" alt="" />
+                <img
+                  src="https://definitely92.github.io/lush/images/aside_menu_img14.png"
+                  alt=""
+                />
               </span>
               기업선물
             </div>
@@ -107,7 +119,7 @@ const Aside = ({ asideOpen, sideBtnhandle }) => {
             <span
               style={{
                 background:
-                  "url(/images/ico_main_menu01.svg) left center no-repeat",
+                  "url(https://definitely92.github.io/lush/images/ico_main_menu01.svg) left center no-repeat",
                 backgroundPosition: "0 center",
               }}
             >
@@ -120,7 +132,7 @@ const Aside = ({ asideOpen, sideBtnhandle }) => {
             <span
               style={{
                 background:
-                  "url(/images/ico_main_menu02.svg) left center no-repeat",
+                  "url(https://definitely92.github.io/lush/images/ico_main_menu02.svg) left center no-repeat",
                 backgroundPosition: "0 center",
               }}
             >
@@ -133,7 +145,7 @@ const Aside = ({ asideOpen, sideBtnhandle }) => {
             <span
               style={{
                 background:
-                  "url(/images/ico_main_menu03.svg) left center no-repeat",
+                  "url(https://definitely92.github.io/lush/images/ico_main_menu03.svg) left center no-repeat",
                 backgroundPosition: "0 center",
               }}
             >
@@ -146,7 +158,7 @@ const Aside = ({ asideOpen, sideBtnhandle }) => {
             <span
               style={{
                 background:
-                  "url(/images/ico_main_menu04.svg) left center no-repeat",
+                  "url(https://definitely92.github.io/lush/images/ico_main_menu04.svg) left center no-repeat",
                 backgroundPosition: "0 center",
               }}
             >
@@ -159,7 +171,7 @@ const Aside = ({ asideOpen, sideBtnhandle }) => {
             <span
               style={{
                 background:
-                  "url(/images/ico_main_menu05.svg) left center no-repeat",
+                  "url(https://definitely92.github.io/lush/images/ico_main_menu05.svg) left center no-repeat",
                 backgroundPosition: "0 center",
               }}
             >
@@ -172,7 +184,7 @@ const Aside = ({ asideOpen, sideBtnhandle }) => {
             <span
               style={{
                 background:
-                  "url(/images/ico_main_menu06.svg) left center no-repeat",
+                  "url(https://definitely92.github.io/lush/images/ico_main_menu06.svg) left center no-repeat",
                 backgroundPosition: "0 center",
               }}
             >

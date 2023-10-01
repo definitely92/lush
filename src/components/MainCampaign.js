@@ -12,7 +12,7 @@ const MainCampaign = () => {
       <div className="inner">
         <Link to="" className="campaign-box">
           <img
-            src="/images/main_campaign_img.jpeg"
+            src="https://definitely92.github.io/lush/images/main_campaign_img.jpeg"
             className="campaign-image"
             alt="러쉬의 최근 이야기 보러 가기"
           />

@@ -12,7 +12,10 @@ const AdBanner = () => {
       }`}
     >
       <Link to="/">
-        <img src="/images/bn_ad_07.jpeg" alt="광고배너" />
+        <img
+          src="https://definitely92.github.io/lush/images/bn_ad_07.jpeg"
+          alt="광고배너"
+        />
       </Link>
     </article>
   );

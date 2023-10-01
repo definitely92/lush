@@ -8,7 +8,10 @@ const EventItems = () => {
   return (
     <div className="grid-item">
       <div className="event-img-wrap">
-        <img src="/images/main_event_img1.png" alt="연휴 맞이 더블 찬스" />
+        <img
+          src="https://definitely92.github.io/lush/images/main_event_img1.png"
+          alt="연휴 맞이 더블 찬스"
+        />
       </div>
       <div className="event-box">
         <p className="subTitle">연휴 맞이 더블 찬스</p>
