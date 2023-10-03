@@ -80,9 +80,9 @@ src
   </tr>
   <tr>
     <td>
-    <img src="![lush_shop_pc](https://github.com/definitely92/lush/assets/132203871/9b679202-094b-4804-9780-350508363450)" />
+    <img src="https://github.com/definitely92/lush/assets/132203871/9b679202-094b-4804-9780-350508363450" />
     </td>
-    <td><img src=![lush_shop_m](https://github.com/definitely92/lush/assets/132203871/924bc93b-5c9f-42ee-907b-b8e003d8d20b)" /></td>
+    <td><img src="https://github.com/definitely92/lush/assets/132203871/924bc93b-5c9f-42ee-907b-b8e003d8d20b" /></td>
   </tr>
  <tr>
     <td> 
@@ -94,9 +94,9 @@ src
   </tr>
    <tr>
     <td>
-      <img src="![lush_shop_2](https://github.com/definitely92/lush/assets/132203871/42d23423-7150-4883-9b9b-3dd541869a40)" />
+      <img src="https://github.com/definitely92/lush/assets/132203871/42d23423-7150-4883-9b9b-3dd541869a40" />
     </td>
-    <td><img src="![lush_shop_3](https://github.com/definitely92/lush/assets/132203871/182238e3-8ffc-4b9e-a69b-018eebd32263)" /></td>
+    <td><img src="https://github.com/definitely92/lush/assets/132203871/182238e3-8ffc-4b9e-a69b-018eebd32263" /></td>
   </tr>
 </table>
 
