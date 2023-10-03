@@ -29,7 +29,10 @@ const CartItem = ({ item }) => {
           <button
             type="button"
             className="cart-item-del"
-            style={{ background: "url(/lush/images/ico_cart_clo.svg)" }}
+            style={{
+              background:
+                "url(https://definitely92.github.io/lush/images/ico_cart_clo.svg)",
+            }}
             onClick={() => {
               dispatch(deleteItem(item));
             }}
@@ -68,7 +71,10 @@ const CartItem = ({ item }) => {
                   dispatch(decreaseCount(item));
                 }}
               >
-                <img src="/lush/images/btn_pro_minus.svg" alt="감소" />
+                <img
+                  src="https://definitely92.github.io/lush/images/btn_pro_minus.svg"
+                  alt="감소"
+                />
               </button>
               <span className="quantity">{item.count}</span>
 
@@ -79,7 +85,10 @@ const CartItem = ({ item }) => {
                   dispatch(addCount(item));
                 }}
               >
-                <img src="/lush/images/btn_pro_plus.svg" alt="증가" />
+                <img
+                  src="https://definitely92.github.io/lush/images/btn_pro_plus.svg"
+                  alt="증가"
+                />
               </button>
             </div>
           </li>

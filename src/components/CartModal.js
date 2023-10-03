@@ -40,7 +40,10 @@ const CartModal = ({ modal, setModal }) => {
           setModal(!modal);
         }}
       >
-        <img src="/lush/images/closePop.svg" alt="팝업 닫기" />
+        <img
+          src="https://definitely92.github.io/lush/images/closePop.svg"
+          alt="팝업 닫기"
+        />
       </button>
     </div>
   );

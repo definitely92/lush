@@ -11,7 +11,7 @@ const FixedBtns = ({ findPrd, setModal }) => {
           이제 <strong>모든 제품을 선물</strong>할 수 있어요!
           <button type="button" className="btn-clo-tooltip">
             <img
-              src="https://definitely92.github.io/lush/images//ico_clo_tooltip.svg"
+              src="https://definitely92.github.io/lush/images/ico_clo_tooltip.svg"
               alt="닫기"
             />
           </button>
