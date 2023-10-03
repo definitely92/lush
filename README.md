@@ -72,31 +72,31 @@ src
 <table>
   <tr>
     <td> 
-    <p align="center">메인</p>
+    <p align="center">메인 PC</p>
     </td>
     <td>
-    <p align="center">상품 상세</p>
+    <p align="center">메인 Mobile</p>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://definitely92.github.io/lush/images/lush_shop_1.gif" />
+      ![lush_shop_pc](https://github.com/definitely92/lush/assets/132203871/9b679202-094b-4804-9780-350508363450)
     </td>
-    <td><img src="https://definitely92.github.io/lush/images/lush_shop_1.gif" /></td>
+    <td>![lush_shop_m](https://github.com/definitely92/lush/assets/132203871/924bc93b-5c9f-42ee-907b-b8e003d8d20b)</td>
   </tr>
  <tr>
     <td> 
-    <p align="center">장바구니</p>
+    <p align="center">상품 상세</p>
     </td>
     <td>
-    <p align="center"></p>
+    <p align="center">장바구니</p>
     </td>
   </tr>
    <tr>
     <td>
-      <img src="https://definitely92.github.io/lush/images/lush_shop_1.gif" />
+      ![lush_shop_2](https://github.com/definitely92/lush/assets/132203871/42d23423-7150-4883-9b9b-3dd541869a40)
     </td>
-    <td></td>
+    <td>![lush_shop_3](https://github.com/definitely92/lush/assets/132203871/182238e3-8ffc-4b9e-a69b-018eebd32263)</td>
   </tr>
 </table>
 
