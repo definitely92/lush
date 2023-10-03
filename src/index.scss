@@ -35,3 +35,90 @@ a {
   text-decoration: none;
   color: #222;
 }
+
+.fixed-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  background: #fff;
+  z-index: 5;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid #eee;
+  .prd-info-buttons {
+    display: flex;
+    width: 100%;
+    padding: 10px 16px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    .pay-tooltip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 5px 5px 8px;
+      text-align: center;
+      font-size: 11px;
+      color: #fff;
+      border-radius: 3px;
+      background: #000;
+      position: absolute;
+      top: -25px;
+      left: 16px;
+      strong {
+        padding-left: 5px;
+        color: #2cda77;
+      }
+      .btn-clo-tooltip img {
+        vertical-align: middle;
+      }
+      &::after {
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 20px;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 7px solid #222;
+      }
+    }
+    > button {
+      height: 48px;
+      letter-spacing: -0.34px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+  .btn-gift {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #bdbdbd;
+    text-indent: -9999px;
+  }
+  .btn-n-pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    border: 1px solid #18a957;
+    span {
+      display: inline-block;
+      padding-left: 23px;
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .green-btn {
+    background: #18a957;
+    border: 1px solid #18a957;
+    color: #fff;
+    text-align: center;
+
+    flex: 1;
+  }
+}

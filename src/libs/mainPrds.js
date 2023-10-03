@@ -5,6 +5,7 @@ export const mainPrds = [
     name: "마스크 오브 매그너 민티",
     category: "파워 마스크",
     price: "22,000",
+    count: 1,
     detailImg: [
       {
         id: 1,
@@ -26,6 +27,7 @@ export const mainPrds = [
     name: "슬리피",
     category: "샤워 젤",
     price: "19,000",
+    count: 1,
     detailImg: [
       {
         id: 1,
@@ -47,6 +49,7 @@ export const mainPrds = [
     name: "챠콜",
     price: "22,000",
     category: "페이셜 솝",
+    count: 1,
     detailImg: [
       {
         id: 1,
@@ -63,11 +66,13 @@ export const mainPrds = [
     img: "https://definitely92.github.io/lush/images/mainPrd_img_4.png",
     name: "대니-오",
     price: "19,000",
+    count: 1,
   },
   {
     id: 5,
     img: "https://definitely92.github.io/lush/images/mainPrd_img_5.png",
     name: "섹스 밤",
     price: "14,000",
+    count: 1,
   },
 ];

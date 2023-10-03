@@ -1,4 +1,9 @@
-const FixedBtns = () => {
+import { insertItem } from "../store/cartslice";
+import { useDispatch } from "react-redux";
+
+const FixedBtns = ({ findPrd, setModal }) => {
+  const dispatch = useDispatch();
+
   return (
     <div className="fixed-btn">
       <div className="prd-info-buttons">
@@ -32,8 +37,25 @@ const FixedBtns = () => {
             Pay
           </span>
         </button>
-        <button type="button" className="green-btn">
-          구매하기
+        <button
+          type="button"
+          className="green-btn"
+          onClick={() => {
+            setModal(true);
+            dispatch(
+              insertItem({
+                id: findPrd.id,
+                price: findPrd.price,
+                thumbnail: findPrd.img,
+                title: findPrd.name,
+                checked: true,
+                category: findPrd.category,
+                count: findPrd.count,
+              })
+            );
+          }}
+        >
+          장바구니
         </button>
       </div>
     </div>

@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import "../assets/styles/header.scss";
+import { useSelector } from "react-redux";
 
 const Header = ({ sideBtnhandle }) => {
+  const list = useSelector((state) => state.cart);
   return (
     <header className="header">
       <div className="header-wrap">
@@ -40,14 +42,12 @@ const Header = ({ sideBtnhandle }) => {
               </Link>
             </li>
             <li>
-              <Link to="/" className="basket">
+              <Link to="/cart" className="basket">
                 <img
                   src="https://definitely92.github.io/lush/images/bag.svg"
                   alt="장바구니"
                 />
-                <span className="basket-cnt" id="header_cart_quantity">
-                  0
-                </span>
+                <span className="basket-cnt">{list.length}</span>
               </Link>
             </li>
             <li>

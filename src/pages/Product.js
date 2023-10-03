@@ -6,6 +6,7 @@ import "../assets/styles/detail.scss";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import FixedBtns from "../components/FixedBtns";
+import CartModal from "../components/CartModal";
 
 const tabMenuArr = [
   { name: "제품정보", content: "제품정보 컨텐츠" },
@@ -16,6 +17,7 @@ const tabMenuArr = [
 
 const Product = ({ prds }) => {
   const [tab, setTab] = useState(0);
+  const [modal, setModal] = useState(false);
 
   const selectTabHandler = (index) => {
     setTab(index);
@@ -27,6 +29,11 @@ const Product = ({ prds }) => {
   });
   return (
     <section className="detail">
+      {modal === true ? (
+        <div className="dimmed">
+          <CartModal modal={modal} setModal={setModal} />
+        </div>
+      ) : null}
       <article className="detail-top">
         <div className="prd-img-area">
           <Swiper
@@ -80,7 +87,7 @@ const Product = ({ prds }) => {
         <div className="tab-cont">
           <div className="tab-inner">{tabMenuArr[tab].content}</div>
         </div>
-        <FixedBtns />
+        <FixedBtns findPrd={findPrd} setModal={setModal} />
       </article>
     </section>
   );
