@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lush/static/css/main.eb72c543.css",
-    "main.js": "/lush/static/js/main.f7875946.js",
+    "main.css": "/lush/static/css/main.1ddbeab7.css",
+    "main.js": "/lush/static/js/main.c0226b38.js",
     "index.html": "/lush/index.html",
-    "main.eb72c543.css.map": "/lush/static/css/main.eb72c543.css.map",
-    "main.f7875946.js.map": "/lush/static/js/main.f7875946.js.map"
+    "main.1ddbeab7.css.map": "/lush/static/css/main.1ddbeab7.css.map",
+    "main.c0226b38.js.map": "/lush/static/js/main.c0226b38.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb72c543.css",
-    "static/js/main.f7875946.js"
+    "static/css/main.1ddbeab7.css",
+    "static/js/main.c0226b38.js"
   ]
 }
